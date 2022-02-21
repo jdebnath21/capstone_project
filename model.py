@@ -48,7 +48,7 @@ def sentimentProductRecommendation(username):
                         [clean_review_df.name == product]
                         .reviews_text)
         # print(filterReviews)
-        # test_data = tfidf_vectorizer.transform(recommendations['clean_review'].values.astype('U'))
+        
         # using tfidf vectorizer to transform the text
         vectorizedReviews = tfidf_vectorizer.transform(filterReviews.values.astype('U'))
         
