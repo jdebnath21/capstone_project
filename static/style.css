@@ -1,6 +1,13 @@
+/* import Google fonts*/
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
 body            { 
-    /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
-    font-family: "Lucida Handwriting", cursive;
+    /* font-family: "Lucida Handwriting", cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'IBM Plex Serif', serif;
     background : url('./racom_eng_wallpaper.png');
     background-position: center;
     background-size: cover;
