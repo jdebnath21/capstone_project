@@ -72,7 +72,7 @@ def sentimentProductRecommendation(username):
                                         reverse=True))
 
     # Sorting the recommendations to predict top 5
-    finalRecommendations = list(sortedByPositivePercentage.items())[:5]
+    finalRecommendations = list(sortedByPositivePercentage.keys())[:5]
     
     # Return the final recommendations
     return finalRecommendations
