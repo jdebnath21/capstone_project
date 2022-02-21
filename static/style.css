@@ -1,6 +1,6 @@
 body            { 
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-    /* background : url('https://raw.githubusercontent.com/sumitsahay68/SentimentBasedProductRecommendationSystem/master/images/shopping.jpg'); */
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+    font-family: "Lucida Handwriting", cursive;
     background : url('./racom_eng_wallpaper.png');
     background-position: center;
     background-size: cover;
