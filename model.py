@@ -60,7 +60,7 @@ def sentimentProductRecommendation(username):
         # print(reviewSentiment)
         
         # Calculating the percentage positive reviews
-        percentPositive = sum(reviewSentiment) / len(reviewSentiment)
+        percentPositive = round((sum(reviewSentiment) / len(reviewSentiment))*100, 2)
         # print(percentPositive)
         
         # Adding data into the dictionary
@@ -72,7 +72,9 @@ def sentimentProductRecommendation(username):
                                         reverse=True))
 
     # Sorting the recommendations to predict top 5
-    finalRecommendations = list(sortedByPositivePercentage.keys())[:5]
+    # finalRecommendations = list(sortedByPositivePercentage.keys())[:5]
+
+    finalRecommendations = list(sortedByPositivePercentage.items())[:5]
     
     # Return the final recommendations
     return finalRecommendations

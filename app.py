@@ -34,7 +34,7 @@ def recommendProduct():
         return render_template('index.html', error=finalRecommendation)
 
     # Converting finalRecommendation to a dataframe
-    recommendations = pd.DataFrame(finalRecommendation, columns = ['Product'])
+    recommendations = pd.DataFrame(finalRecommendation, columns = ['Product', 'Positive Percentage'])
 
     # Creating a HTML table from Dataframe
     recommendation_tabular = [recommendations.to_html(classes='recommendations')]
