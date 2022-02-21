@@ -8,7 +8,7 @@ SENTIMENT_CLASSIFIER_PATH = './model/classification_lr.pickle'
 RECOMMENDATION_MODEL = './model/recommendationv2.pickle'
 
 # DATAPATH MAPPING
-PRODUCT_REVIEW_MAPPING = './data/clean_lookup_df.csv'
+PRODUCT_REVIEW_MAPPING = './data/clean_reviews.csv'
 
 # Probability Threshold
-PROBABILITY_THRESHOLD = 0.55
+PROBABILITY_THRESHOLD = 0.6
